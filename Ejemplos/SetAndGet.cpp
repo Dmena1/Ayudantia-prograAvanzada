@@ -7,11 +7,11 @@ class ejemploSetAndGet
 	string caracteres;
 	public:
 		//-------------------------------------------------------------------------------
-		//ejemploSetAndGet(int numero, string palabra)
-		//{
-		//	entero=numero;
-		//	caracteres=palabra;
-		//}
+		ejemploSetAndGet(int numero, string palabra)
+		{
+			entero=numero;
+			caracteres=palabra;
+		}
 		//------------------------------------------------------------------------------
 		//ejemploSetAndGet(int entero, string caracteres)
 		//{
@@ -39,9 +39,9 @@ class ejemploSetAndGet
 };
 int main()
 {
-	//ejemploSetAndGet*Objeto=new ejemploSetAndGet(1,"Hola");
+	ejemploSetAndGet*Objeto=new ejemploSetAndGet(1,"Hola");
 	//-----------------------------------------------------------
-	//ejemploSetAndGet*Objeto=new ejemploSetAndGet();
+    //ejemploSetAndGet*Objeto=new ejemploSetAndGet();
 	//Objeto->SetEntero(1);
 	//Objeto->SetCaracteres("Hola");
 	//------------------------------------------------------------
