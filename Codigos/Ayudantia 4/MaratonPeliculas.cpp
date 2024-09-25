@@ -149,15 +149,4 @@ int main()
 	maratonDePeliculas->Imprimir();
 }
 
-void BubbleSort() {
-            for(int i = 0; i < 3; i++) {
-                for(int j = i + 1; j < 4; j++) {
-                    if (Arreglo[i] > Arreglo[j]) {
-                        int aux = Arreglo[i];
-                        Arreglo[i] = Arreglo[j];
-                        Arreglo[j] = aux;
-                    }
-                }
-            }
-        }
 
